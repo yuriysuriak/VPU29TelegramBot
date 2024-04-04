@@ -52,6 +52,4 @@ if __name__ == '__main__':
     application.add_handler(location_handler)
     contact_handler = MessageHandler(filters.CONTACT, contact)
     application.add_handler(contact_handler)
-
-
     application.run_polling()
